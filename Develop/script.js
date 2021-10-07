@@ -38,7 +38,16 @@ function generatePassword() {
   if (lowercase == true) {
     characterBase = characterBase + lowercaseLetters
   }
-  
+  if (uppercase == true) {
+    characterBase = characterBase + uppercaseLetters
+  }
+  if (numeric == true) {
+    characterBase = characterBase + numbers
+  }
+  if (special == true) {
+    characterBase = characterBase + specialCharacters
+  }
+
 
 
 
