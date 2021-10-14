@@ -47,10 +47,13 @@ function generatePassword() {
   if (special == true) {
     characterBase = characterBase + specialCharacters
   }
+  var result = '';
+    for ( var i = 0; i < passwordLength; i++ ) {
+        result += characterBase.charAt(Math.floor(Math.random() * characterBase.length));
+    }
 
 
 
-
-  return "Password Gen"
+  return result
 
 }
