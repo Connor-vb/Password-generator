@@ -1,6 +1,7 @@
 # Password-generator
 
 ## Purpose
+The purpose of this assignment is to create a randomly generated password that will not be easily guessed.
 
 ## Requirements: 
 GIVEN I need a new, secure password
@@ -20,9 +21,15 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 ## Built With
+*HTML
+*CSS
+*JS
 
 ## When:
 10/20/21
 
 ## Site URL:
 https://connor-vb.github.io/Password-generator/
+
+## Contribution
+Github @ Connor-vb
